@@ -30,21 +30,7 @@ class Team {
         return $this->totalGoals / $this->totalGames;
     }
 
-    public function getName() {
-        return $this->name;
-    }
-
-    public function getTotalPoints() {
-        return $this->totalPoints;
-    }
-
-    public function getTotalGoals() {
-        return $this->totalGoals;
-    }
-
-    public function getTotalGames() {
-        return $this->totalGames;
-    }
+ 
 }
 // create a PHP class from a UML description
 //Take values from a HTML form and use them to instantiate a PHP class
